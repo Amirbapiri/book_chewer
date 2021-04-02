@@ -1,3 +1,8 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import Reviewer
+
+
+@admin.register(Reviewer)
+class ReviewerModelAdmin(admin.ModelAdmin):
+    pass
