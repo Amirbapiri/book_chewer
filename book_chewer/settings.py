@@ -42,6 +42,7 @@ INSTALLED_APPS = [
 
     # Our apps
     "accounts",
+    "publications",
 
 ]
 
